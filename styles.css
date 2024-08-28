@@ -20,7 +20,7 @@ h1 {
     position: absolute;
     background-image: url("assets/images/background-pattern-desktop.svg");
     width: 100%;
-    height: 33vh;
+    height: 36vh;
 }
 
 
@@ -59,15 +59,11 @@ h1 {
 
 
 .outbox {
-    /* width: 36%; */
-    /* position: absolute; */
-    /* top: 20%;
-    left: 32%; */
     position: relative;
     z-index: 10;
     background-color: white;
-    box-shadow: 0 0 20px rgb(131, 120, 129);
- 
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(177, 171, 176);
 }
 
 

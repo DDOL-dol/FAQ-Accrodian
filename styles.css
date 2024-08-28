@@ -1,17 +1,18 @@
 @font-face {
-    font-family: 'Work Sans' sans-serif;
-    src: url('../assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
+    font-family: 'Work Sans';
+    src: url('assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
     font-weight: 100 900;
-    /* Range from Thin (100) to Black (900) */
     font-style: normal;
 }
 
+/* Work Sans - 半粗体斜体 */
 @font-face {
-    font-family: 'Work Sans Bold' sans-serif;
-    src: url('../assets/fonts/WorkSans-SemiBold.ttf') format('truetype');
-    font-weight: 100 900;
-    font-style: italic;
+    font-family: 'Work Sans';
+    src: url('assets/fonts/WorkSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }
+
 
 body {
     margin: 0;
@@ -32,7 +33,7 @@ h1 {
 
 
 .background {
-    background-image: url("../assets/images/background-pattern-desktop.svg");
+    background-image: url("assets/images/background-pattern-desktop.svg");
     width: 100%;
     height: 33vh;
 }
@@ -49,20 +50,21 @@ h1 {
 }
 
 .accordion-body {
-    padding: 10px 0px;
+    padding: 0px 0px 25px 0px;
     font-size: 16px;
     font-family: 'Work Sans' sans-serif;
     color: #9a939b;
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url("../assets/images/icon-minus.svg");
+    padding: 0px 0px;
+    background-image: url("assets/images/icon-minus.svg");
     --bs-accordion-btn-icon-width: 1.75rem;
     
 }
 
 .accordion-button::after {
-    background-image: url("../assets/images/icon-plus.svg");
+    background-image: url("assets/images/icon-plus.svg");
     --bs-accordion-btn-icon-width: 1.75rem;
 }
 
@@ -85,5 +87,5 @@ h1 {
 
 
 .accordion-button-icon {
-    background-image: url("../assets/images/icon-minus.svg");
+    background-image: url("assets/images/icon-minus.svg");
 }

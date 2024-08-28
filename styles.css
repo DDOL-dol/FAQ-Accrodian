@@ -1,26 +1,10 @@
-@font-face {
-    font-family: 'Work Sans';
-    src: url('assets/fonts/WorkSans-VariableFont_wght.ttf') format('truetype');
-    font-weight: 100 900;
-    font-style: normal;
-}
-
-/* Work Sans - 半粗体斜体 */
-@font-face {
-    font-family: 'Work Sans';
-    src: url('assets/fonts/WorkSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-
 body {
     margin: 0;
     background-color: #f7eefe;
 }
 
 h1 {
-    font-family: 'Work Sans Bold', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 50px;
     color: #301534;
 }
@@ -33,6 +17,7 @@ h1 {
 
 
 .background {
+    position: absolute;
     background-image: url("assets/images/background-pattern-desktop.svg");
     width: 100%;
     height: 33vh;
